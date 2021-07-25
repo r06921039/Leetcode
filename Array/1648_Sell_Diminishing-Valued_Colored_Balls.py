@@ -32,3 +32,4 @@ class Solution:
             orders -= sell
             index += 1
         return ans % int(1E9 + 7)
+        #1E9 + 7 == 1_000_000_007
