@@ -30,3 +30,4 @@ class ProductOfNumbers:
             return 0
         else:
             return self.stack[-1] // self.stack[-k-1]
+        
